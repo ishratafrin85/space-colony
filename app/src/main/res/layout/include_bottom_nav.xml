@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNav"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/surface"
+    android:orientation="horizontal"
+    android:elevation="8dp">
+
+    <LinearLayout
+        android:id="@+id/navHome"
+        style="@style/NavItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/navHomeIcon"
+            style="@style/NavIcon"
+            android:text="⌂" />
+
+        <TextView
+            android:id="@+id/navHomeLabel"
+            style="@style/NavLabel"
+            android:text="Home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navQuarters"
+        style="@style/NavItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/navQuartersIcon"
+            style="@style/NavIcon"
+            android:text="◧" />
+
+        <TextView
+            android:id="@+id/navQuartersLabel"
+            style="@style/NavLabel"
+            android:text="Quarters" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navSim"
+        style="@style/NavItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/navSimIcon"
+            style="@style/NavIcon"
+            android:text="◭" />
+
+        <TextView
+            android:id="@+id/navSimLabel"
+            style="@style/NavLabel"
+            android:text="Sim" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navMission"
+        style="@style/NavItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/navMissionIcon"
+            style="@style/NavIcon"
+            android:text="◬" />
+
+        <TextView
+            android:id="@+id/navMissionLabel"
+            style="@style/NavLabel"
+            android:text="Mission" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navStats"
+        style="@style/NavItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/navStatsIcon"
+            style="@style/NavIcon"
+            android:text="☰" />
+
+        <TextView
+            android:id="@+id/navStatsLabel"
+            style="@style/NavLabel"
+            android:text="Stats" />
+    </LinearLayout>
+</LinearLayout>
